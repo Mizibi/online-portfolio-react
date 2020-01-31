@@ -1,27 +1,27 @@
 import React from 'react'
 
 type HomeProps = typeof Home.defaultProps & {
-  message: string;
+  message: string,
 };
 
 type MyState = {
-  count: number;
+  count: number,
 };
-  class Home extends React.Component<HomeProps, MyState> {
-    static defaultProps = {
-      name: "world"
-    };
-    state: MyState = {
-      count: 0
-    };
+class Home extends React.Component<HomeProps, MyState> {
+  static defaultProps = {
+    name: 'world',
+  };
+  state: MyState = {
+    count: 0,
+  };
 
-    render() {
-      return (
-        <div>
-          {this.props.message} {this.state.count}
-        </div>
-      );
-    }
+  render() {
+    return (
+      <div>
+        {this.props.message} {this.state.count}
+      </div>
+    )
   }
+}
 
-    export {Home}
+export { Home }
