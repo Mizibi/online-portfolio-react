@@ -1,5 +1,5 @@
 {
-  "name": "my-typescript-app",
+  "name": "online-portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,9 +10,11 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
     "typescript": "~3.7.2"
