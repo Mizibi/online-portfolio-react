@@ -20,9 +20,7 @@ function findPage(pagename: string | undefined): any {
     return undefined
   }
   const pageArray = Object.values(RawPagesModels)
-  const foundPage = pageArray.findIndex(page => page.name === pagename)
-  const foundClass = pageArray[foundPage]
-  return foundClass
+  return pageArray[pageArray.findIndex(page => page.name === pagename)]
 }
 
 function pagesToRoutes(): Array<JSX.Element> {
